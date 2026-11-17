@@ -1,0 +1,6 @@
+$ /workspaces/parallel-barnes-hut-tsne/build/tsne_seq data/com-Amazon --threads 1 --out /workspaces/parallel-barnes-hut-tsne/results/benchmarks/tsne_ktg8i500
+Mode=sequential n=334863 nnz=1851744 u=10 theta=0.5 threads=1
+Psum=1 Beta[0]=0 Fattr[0]=(-2.719185416e-08,6.640179511e-08) Frep[0]=(-3.850404163e-08,2.556235682e-07) Z=7455250683
+Beta max abs err=0 Fattr max abs err=0 Frep rel max err=0.008154182568 Z rel err=0.004842601227
+Times (s): probabilities=0.122554966 (conditional=0.012671249, sym=0.109875933) attraction=0.011329546 tree=0.028217684 centers=0.002452068 walk=5.100799175 gradient=0.002335435
+Saved CSV files to /workspaces/parallel-barnes-hut-tsne/results/benchmarks/tsne_ktg8i500

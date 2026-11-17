@@ -1,0 +1,6 @@
+$ /workspaces/parallel-barnes-hut-tsne/build/tsne_cilk data/coPapersDBLP --out /workspaces/parallel-barnes-hut-tsne/results/benchmarks/tsne_vaafzw_9
+Mode=opencilk n=540486 nnz=30491458 u=10 theta=0.5 threads=8
+Psum=1 Beta[0]=0 Fattr[0]=(5.668858194e-08,2.290688335e-08) Frep[0]=(2.033264815e-07,1.427401219e-07) Z=3.736112594e+10
+Beta max abs err=0 Fattr max abs err=0 Frep rel max err=0.00587410935 Z rel err=0.003618108232
+Times (s): probabilities=0.440733371 (conditional=0.099438563, sym=0.334993258) attraction=0.020706998 tree=0.022339955 centers=0.002104717 walk=0.752658947 gradient=0.002432228
+Saved CSV files to /workspaces/parallel-barnes-hut-tsne/results/benchmarks/tsne_vaafzw_9

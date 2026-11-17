@@ -1,2 +1,10 @@
 starter/readdata
 *.o
+
+# Compiled files
+build/
+graph_tsne
+src/*.o
+
+# Generated container files
+.devcontainer/devcontainer-lock.json

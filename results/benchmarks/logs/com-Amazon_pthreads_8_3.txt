@@ -1,0 +1,6 @@
+$ /workspaces/parallel-barnes-hut-tsne/build/tsne_pthreads data/com-Amazon --threads 8 --out /workspaces/parallel-barnes-hut-tsne/results/benchmarks/tsne_dxesnpcg
+Mode=pthreads n=334863 nnz=1851744 u=10 theta=0.5 threads=8
+Psum=1 Beta[0]=0 Fattr[0]=(-2.719185416e-08,6.640179511e-08) Frep[0]=(-3.850404163e-08,2.556235682e-07) Z=7455250683
+Beta max abs err=0 Fattr max abs err=0 Frep rel max err=0.008154182568 Z rel err=0.004842601227
+Times (s): probabilities=0.036199016 (conditional=0.007183495, sym=0.029014874) attraction=0.00650961 tree=0.014100406 centers=0.001039326 walk=0.928788691 gradient=0.001221374
+Saved CSV files to /workspaces/parallel-barnes-hut-tsne/results/benchmarks/tsne_dxesnpcg

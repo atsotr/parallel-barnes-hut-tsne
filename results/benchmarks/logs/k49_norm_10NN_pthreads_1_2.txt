@@ -1,0 +1,6 @@
+$ /workspaces/parallel-barnes-hut-tsne/build/tsne_pthreads data/k49_norm_10NN --threads 1 --out /workspaces/parallel-barnes-hut-tsne/results/benchmarks/tsne_f9ikms18
+Mode=pthreads n=38547 nnz=618158 u=10 theta=0.5 threads=1
+Psum=1 Beta[0]=2.628173828 Fattr[0]=(3.435605657e-07,-7.775802979e-07) Frep[0]=(8.765770843e-07,-1.738356308e-06) Z=73749886.88
+Beta max abs err=0.0001220703125 Fattr max abs err=4.114074025e-11 Frep rel max err=0.007634560012 Z rel err=0.005068096945
+Times (s): probabilities=0.216366417 (conditional=0.197887831, sym=0.018477491) attraction=0.001184695 tree=0.001854503 centers=0.000118521 walk=0.18368955 gradient=9.9904e-05
+Saved CSV files to /workspaces/parallel-barnes-hut-tsne/results/benchmarks/tsne_f9ikms18

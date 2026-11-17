@@ -1,0 +1,3 @@
+$ /workspaces/parallel-barnes-hut-tsne/build/tsne_omp data/k49_norm_10NN --threads 4 --theta 0.5 --bench-rep 4000
+Mode=openmp n=38547 nnz=618158 u=10 theta=0.5 threads=4
+BENCH n=4000 tree=0.000487425 com=1.0903e-05 BH_walk=0.002672027 exact=0.005528488 speedup(exact/BH_walk)=2.069024003 Frep_rel_error=0.00645331718 Z_rel_error=0.003331529052

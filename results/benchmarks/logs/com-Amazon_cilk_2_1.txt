@@ -1,0 +1,6 @@
+$ /workspaces/parallel-barnes-hut-tsne/build/tsne_cilk data/com-Amazon --out /workspaces/parallel-barnes-hut-tsne/results/benchmarks/tsne_34xqm08m
+Mode=opencilk n=334863 nnz=1851744 u=10 theta=0.5 threads=2
+Psum=1 Beta[0]=0 Fattr[0]=(-2.719185416e-08,6.640179511e-08) Frep[0]=(-3.850404163e-08,2.556235682e-07) Z=7455250683
+Beta max abs err=0 Fattr max abs err=0 Frep rel max err=0.008154182568 Z rel err=0.004842601227
+Times (s): probabilities=0.071150126 (conditional=0.006784336, sym=0.064356775) attraction=0.003839796 tree=0.016261926 centers=0.001045866 walk=2.139594573 gradient=0.001165056
+Saved CSV files to /workspaces/parallel-barnes-hut-tsne/results/benchmarks/tsne_34xqm08m

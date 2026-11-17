@@ -1,0 +1,6 @@
+$ /workspaces/parallel-barnes-hut-tsne/build/tsne_omp data/com-Amazon --threads 4 --out /workspaces/parallel-barnes-hut-tsne/results/benchmarks/tsne_9t8i_6n6
+Mode=openmp n=334863 nnz=1851744 u=10 theta=0.5 threads=4
+Psum=1 Beta[0]=0 Fattr[0]=(-2.719185416e-08,6.640179511e-08) Frep[0]=(-3.850404163e-08,2.556235682e-07) Z=7455250683
+Beta max abs err=0 Fattr max abs err=0 Frep rel max err=0.008154182568 Z rel err=0.004842601227
+Times (s): probabilities=0.042864684 (conditional=0.006300289, sym=0.036557018) attraction=0.003713671 tree=0.014228209 centers=0.004509388 walk=1.230884014 gradient=0.001151737
+Saved CSV files to /workspaces/parallel-barnes-hut-tsne/results/benchmarks/tsne_9t8i_6n6

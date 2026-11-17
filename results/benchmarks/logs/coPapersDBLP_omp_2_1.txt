@@ -1,0 +1,6 @@
+$ /workspaces/parallel-barnes-hut-tsne/build/tsne_omp data/coPapersDBLP --threads 2 --out /workspaces/parallel-barnes-hut-tsne/results/benchmarks/tsne_m3ph78st
+Mode=openmp n=540486 nnz=30491458 u=10 theta=0.5 threads=2
+Psum=1 Beta[0]=0 Fattr[0]=(5.668858194e-08,2.290688335e-08) Frep[0]=(2.033264815e-07,1.427401219e-07) Z=3.736112594e+10
+Beta max abs err=0 Fattr max abs err=0 Frep rel max err=0.00587410935 Z rel err=0.003618108232
+Times (s): probabilities=0.727599346 (conditional=0.092530972, sym=0.629763392) attraction=0.029348032 tree=0.034137725 centers=0.003239995 walk=1.766738199 gradient=0.00421487
+Saved CSV files to /workspaces/parallel-barnes-hut-tsne/results/benchmarks/tsne_m3ph78st

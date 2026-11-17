@@ -1,0 +1,6 @@
+$ /workspaces/parallel-barnes-hut-tsne/build/tsne_omp data/k49_norm_10NN --threads 4 --out /workspaces/parallel-barnes-hut-tsne/results/benchmarks/tsne_z7r3cdvc
+Mode=openmp n=38547 nnz=618158 u=10 theta=0.5 threads=4
+Psum=1 Beta[0]=2.628173828 Fattr[0]=(3.435605657e-07,-7.775802979e-07) Frep[0]=(8.765770843e-07,-1.738356308e-06) Z=73749886.88
+Beta max abs err=0.0001220703125 Fattr max abs err=4.114074025e-11 Frep rel max err=0.007634560012 Z rel err=0.005068096945
+Times (s): probabilities=0.065629805 (conditional=0.056821293, sym=0.008801348) attraction=0.00043893 tree=0.00237969 centers=0.000106394 walk=0.055736059 gradient=0.000138819
+Saved CSV files to /workspaces/parallel-barnes-hut-tsne/results/benchmarks/tsne_z7r3cdvc

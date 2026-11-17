@@ -1,0 +1,6 @@
+$ /workspaces/parallel-barnes-hut-tsne/build/tsne_omp data/com-Amazon --threads 2 --out /workspaces/parallel-barnes-hut-tsne/results/benchmarks/tsne_fxmy5eo4
+Mode=openmp n=334863 nnz=1851744 u=10 theta=0.5 threads=2
+Psum=1 Beta[0]=0 Fattr[0]=(-2.719185416e-08,6.640179511e-08) Frep[0]=(-3.850404163e-08,2.556235682e-07) Z=7455250683
+Beta max abs err=0 Fattr max abs err=0 Frep rel max err=0.008154182568 Z rel err=0.004842601227
+Times (s): probabilities=0.062203583 (conditional=0.006640483, sym=0.055555819) attraction=0.006421733 tree=0.016979244 centers=0.001272952 walk=2.195825966 gradient=0.002346812
+Saved CSV files to /workspaces/parallel-barnes-hut-tsne/results/benchmarks/tsne_fxmy5eo4

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="670" height="400" viewBox="0 0 670 400">
+<rect width="100%" height="100%" fill="white"/>
+<text x="68" y="27" font-family="Arial" font-weight="bold" font-size="17">coPapersDBLP: speedup vs sequential</text>
+<line x1="68" y1="342.0" x2="646" y2="342.0" stroke="#e5e7eb"/>
+<text x="56" y="346.0" text-anchor="end" font-size="12" font-family="Arial">0×</text>
+<line x1="68" y1="284.4" x2="646" y2="284.4" stroke="#e5e7eb"/>
+<text x="56" y="288.4" text-anchor="end" font-size="12" font-family="Arial">1×</text>
+<line x1="68" y1="226.8" x2="646" y2="226.8" stroke="#e5e7eb"/>
+<text x="56" y="230.8" text-anchor="end" font-size="12" font-family="Arial">2×</text>
+<line x1="68" y1="169.2" x2="646" y2="169.2" stroke="#e5e7eb"/>
+<text x="56" y="173.2" text-anchor="end" font-size="12" font-family="Arial">3×</text>
+<line x1="68" y1="111.6" x2="646" y2="111.6" stroke="#e5e7eb"/>
+<text x="56" y="115.6" text-anchor="end" font-size="12" font-family="Arial">4×</text>
+<line x1="68" y1="54.0" x2="646" y2="54.0" stroke="#e5e7eb"/>
+<text x="56" y="58.0" text-anchor="end" font-size="12" font-family="Arial">5×</text>
+<text x="68.0" y="366" text-anchor="middle" font-size="12" font-family="Arial">1</text>
+<text x="150.6" y="366" text-anchor="middle" font-size="12" font-family="Arial">2</text>
+<text x="315.7" y="366" text-anchor="middle" font-size="12" font-family="Arial">4</text>
+<text x="646.0" y="366" text-anchor="middle" font-size="12" font-family="Arial">8</text>
+<text x="357.0" y="390" text-anchor="middle" font-family="Arial" font-size="13">Workers / threads</text>
+<polyline points="68.0,284.2 150.6,252.6 315.7,203.2 646.0,140.4" stroke="#2563eb" stroke-width="3" fill="none"/>
+<circle cx="68.0" cy="284.2" r="4" fill="#2563eb"/>
+<circle cx="150.6" cy="252.6" r="4" fill="#2563eb"/>
+<circle cx="315.7" cy="203.2" r="4" fill="#2563eb"/>
+<circle cx="646.0" cy="140.4" r="4" fill="#2563eb"/>
+<line x1="68" y1="366" x2="88" y2="366" stroke="#2563eb" stroke-width="3"/>
+<text x="93" y="370" font-size="12" font-family="Arial">pthreads</text>
+<polyline points="68.0,283.6 150.6,233.9 315.7,171.0 646.0,103.5" stroke="#16a34a" stroke-width="3" fill="none"/>
+<circle cx="68.0" cy="283.6" r="4" fill="#16a34a"/>
+<circle cx="150.6" cy="233.9" r="4" fill="#16a34a"/>
+<circle cx="315.7" cy="171.0" r="4" fill="#16a34a"/>
+<circle cx="646.0" cy="103.5" r="4" fill="#16a34a"/>
+<line x1="218" y1="366" x2="238" y2="366" stroke="#16a34a" stroke-width="3"/>
+<text x="243" y="370" font-size="12" font-family="Arial">omp</text>
+<polyline points="68.0,283.1 150.6,234.5 315.7,168.2 646.0,113.3" stroke="#d97706" stroke-width="3" fill="none"/>
+<circle cx="68.0" cy="283.1" r="4" fill="#d97706"/>
+<circle cx="150.6" cy="234.5" r="4" fill="#d97706"/>
+<circle cx="315.7" cy="168.2" r="4" fill="#d97706"/>
+<circle cx="646.0" cy="113.3" r="4" fill="#d97706"/>
+<line x1="368" y1="366" x2="388" y2="366" stroke="#d97706" stroke-width="3"/>
+<text x="393" y="370" font-size="12" font-family="Arial">cilk</text>
+</svg>
