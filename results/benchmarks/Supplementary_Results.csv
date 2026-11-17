@@ -1,0 +1,5 @@
+experiment,n,theta,threads,leaf_capacity,tree_seconds,centers_seconds,bh_walk_seconds,exact_seconds,Frep_rel_error_vs_reference,Frep_rel_error_vs_exact,Z_rel_error_vs_reference,notes
+full_k49_exact,38547,0.5,8,16,0.002272845,0.000076508,0.032683919,0.413384924,0.007634560012,0.00773241264,0.005068096945,One full-graph OpenMP run
+leaf_capacity_8,38547,0.5,8,8,0.003584265,0.000578881,0.03362658,,0.007779071067,,0.005093438997,Single-run leaf sweep
+leaf_capacity_16,38547,0.5,8,16,0.002266704,0.000220245,0.034801833,,0.007634560012,,0.005068096945,Single-run leaf sweep
+leaf_capacity_32,38547,0.5,8,32,0.001669048,0.000038125,0.037603818,,0.007596726377,,0.00493764247,Single-run leaf sweep
